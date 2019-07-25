@@ -11,7 +11,10 @@ namespace Nerd_ASP_CORE_Webapp.Controllers
 {
     [Authorize]
     public class HomeController : Controller
-    {
+    {/// <summary>
+    /// Balls
+    /// </summary>
+    /// <returns></returns>
         public IActionResult Index()
         {
             return View();
