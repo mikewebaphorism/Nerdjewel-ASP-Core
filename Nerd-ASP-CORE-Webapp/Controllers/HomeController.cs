@@ -21,7 +21,7 @@ namespace Nerd_ASP_CORE_Webapp.Controllers
         {
             return View();
         }
-
+        [AllowAnonymous]
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
